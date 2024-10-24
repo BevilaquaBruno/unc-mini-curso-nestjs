@@ -14,7 +14,7 @@ O minicurso foi pensado em 15 aulas diferentes dispostas abaixo com seus respect
 
 - [Aula 1](./aulas/aula-1.md) - Instalação do NestJs, criação do projeto e definição das configurações iniciais do mesmo.
 - [Aula 2](./aulas/aula-2.md) - Testando e alterando o controller básico do NestJs para rodar o projeto.
-- [Aula 3](./aulas/aula-3.md) - Testando parâmetros de URL com o GET, de corpo com o POST e retornando erros user friendly.
+- [Aula 3](./aulas/aula-3.md) - Testando parâmetros de URL com o GET, de corpo com o POST e exibindo erros user friendly.
 - [Aula 4](./aulas/aula-4.md) - Adição do TypeORM ao projeto e criação das migrations do banco de dados.
 - [Aula 5](./aulas/aula-5.md) - Início do CRUD de pessoa, listando todas e listando uma.
 - [Aula 6](./aulas/aula-6.md) - Criação de paginação para retornar a lista de pessoas.
