@@ -10,7 +10,7 @@ Autor: Bruno Fernando Bevilaqua
 
 A ideia do projeto de mini curso de [**NestJs**](https://nestjs.com/) é criar uma lista de materiais necessários e interessantes para desenvolver um projeto CRUD em **NestJs**, ao final do curso será disponibilizado um material com uma API que foi desenvolvida e servirá como exemplo.
 
-O minicurso foi pensado em 15 aulas diferentes dispostas abaixo com seus respectivos links:
+O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respectivos links:
 
 - [Aula 1](./aulas/aula-1.md) - Instalação do NestJs, criação do projeto e definição das configurações iniciais do mesmo.
 - [Aula 2](./aulas/aula-2.md) - Testando e alterando o controller básico do NestJs para rodar o projeto.
