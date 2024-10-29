@@ -18,6 +18,7 @@ A ideia do projeto de mini curso de [**NestJs**](https://nestjs.com/) é criar u
 - Conhecimento em Typescript e orientação a objeto.
 - Conhecimento em desenvolvimento de software com o padrão MVC.
 
+### Aulas
 
 O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respectivos links:
 
@@ -36,6 +37,8 @@ O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respec
 - [Aula 13](./aulas/aula-13.md) - Validação de e-mail e senha para o login do usuário.
 - [Aula 14](./aulas/aula-14.md) - Adição de validação para cadastro de pessoas e usuários mediante token de login.
 - [Aula 15](./aulas/aula-15.md) - Testes finais e finalização do minicurso.
+
+### Conclusão
 
 Ao final do curso, você terá uma API com autenticação e cadastro de usuários junto com um cadastro de pessoa ligando os dois.
 
