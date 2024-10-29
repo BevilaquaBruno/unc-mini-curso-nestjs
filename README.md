@@ -10,6 +10,15 @@ Autor: Bruno Fernando Bevilaqua
 
 A ideia do projeto de mini curso de [**NestJs**](https://nestjs.com/) é criar uma lista de materiais necessários e interessantes para desenvolver um projeto CRUD em **NestJs**, ao final do curso será disponibilizado um material com uma API que foi desenvolvida e servirá como exemplo.
 
+### Pré-requisitos
+
+- [NodeJS 22.10.00](https://nodejs.org/en).
+- [MySQL Community Server 8.0.40](https://dev.mysql.com/downloads/mysql/8.0.html).
+- Algum editor de texto de sua preferência, recomendado o [VS Code](https://code.visualstudio.com/)
+- Conhecimento em Typescript e orientação a objeto.
+- Conhecimento em desenvolvimento de software com o padrão MVC.
+
+
 O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respectivos links:
 
 - [Aula 1](./aulas/aula-1.md) - Instalação do NestJs, criação do projeto e definição das configurações iniciais do mesmo.
