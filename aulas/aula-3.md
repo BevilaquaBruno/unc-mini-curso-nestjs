@@ -68,3 +68,4 @@ Fim da aula 3, realizamos testes para entender melhor o funcionamento das requis
 
 ## Referências
 - [Mozilla HTTP Status Code](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status)
+- [Controllers NestJs](https://docs.nestjs.com/controllers)
