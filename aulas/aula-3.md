@@ -64,6 +64,8 @@ Fazendo isso, os retornos das URL de teste `http://localhost:3000/teste/1` e `ht
 
 ![Exemplo de parâmetros URL](../images/aula-3/3_lista_erros.PNG)
 
+Dessa forma evitamos erros nas requisições ao banco de dados tratando o id repassado pelo consumidor da API.
+
 Fim da aula 3, realizamos testes para entender melhor o funcionamento das requisições HTTP.
 
 ## Referências
