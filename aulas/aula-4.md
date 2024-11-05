@@ -10,10 +10,10 @@ Certifique-se que tenha o serviço do MySQL iniciado no computador, caso não te
 
 ### Instalando o TypeORM e configurando a conexão
 
-Neste caso será necessário instalarmos três repositórios distintos, o `typeorm`, `mysql2` e o `@nestjs/typeorm`.
+Neste caso será necessário instalarmos três repositórios distintos, o `typeorm`, `mysql2`, `dotenv` e o `@nestjs/typeorm`.
 
 ```cmd
-> npm install --save typeorm mysql2 @nestjs/typeorm
+> npm install --save typeorm mysql2 dotenv @nestjs/typeorm
 ```
 
 Para definirmos os dados da conexão com o banco de dados no código fonte, não devemos escrever diretamente nas variáveis correspondentes. Portanto é necessário criarmos um arquivo `.env` que não será enviado ao github e por fim um arquivo `.env.example` que será enviado ao github com dados fictícios para nos lembrar das variáveis de ambiente necessárias.
