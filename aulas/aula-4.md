@@ -31,7 +31,7 @@ DB_DATABASE=DATABASE
 
 Estas variáveis inseridas dentro do arquivo `.env` serão utilizadas no arquivo `src/app.module.ts`. Iremos incluir o seguinte trecho de código dentro da lista de `imports`:
 
-```javascript
+```typescript
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -94,7 +94,7 @@ Os arquivos de migration são formados por dois métodos, o método **up** para 
 
 Para a criação da tabela de pessoa, vamos inserir apenas os campos **nome** e **cpf**, ficando da seguinte forma:
 
-```javascript
+```typescript
 public async up(queryRunner: QueryRunner): Promise<void> {
   await queryRunner.query(`
     CREATE TABLE pessoa (
@@ -112,7 +112,7 @@ public async down(queryRunner: QueryRunner): Promise<void> {
 
 O próximo passo é editar o arquivo unificador das migrations que serão rodadas, que é o arquivo `run_migrations.ts` criado anteriormente. Neste arquivo é necessário que sejam importadas **todas** as migrations para que sejam executadas no banco de dados informado, como temos apenas uma migration o comando ficará da seguinte forma:
 
-```javascript
+```typescript
 import { DataSource } from 'typeorm';
 import * as dotenv from 'dotenv';
 
