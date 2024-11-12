@@ -166,7 +166,7 @@ O retorno deve parecido com o da seguinte imagem:
 
 ![Retorno findAll e findOne](../images/aula-5/3_retornos_all_one.png)
 
-Fim da aula 5, conseguimos listar as pessoas e testar os enpoints.
+Fim da aula 5, conseguimos listar as pessoas e testar os endpoints.
 
 # Referências
 - [Gerador de CPF](https://www.4devs.com.br/gerador_de_cpf)
