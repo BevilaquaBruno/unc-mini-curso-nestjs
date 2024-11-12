@@ -100,7 +100,7 @@ public async up(queryRunner: QueryRunner): Promise<void> {
     CREATE TABLE pessoa (
       id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
       nome VARCHAR(100) NOT NULL,
-      cpf CHAR(11)
+      cpf CHAR(14)
     );`
   );
 }

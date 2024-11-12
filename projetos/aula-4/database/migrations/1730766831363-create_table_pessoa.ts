@@ -7,7 +7,7 @@ export class createTablePessoa1730766831363 implements MigrationInterface {
             CREATE TABLE pessoa (
                 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
                 nome VARCHAR(50) NOT NULL,
-                cpf CHAR(11)
+                cpf CHAR(14)
             );`);
     }
 
