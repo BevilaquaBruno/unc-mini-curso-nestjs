@@ -100,8 +100,8 @@ export class UpdatePessoaDto extends PartialType(CreatePessoaDto) {
 Para testar os enpoints que vamos criar é necessário primeiro incluir campos na tabela de pessoa, abra o **HeidiSQL** e execute a seguinte query:
 
 ```SQL
-INSERT INTO pessoa (nome, cpf) VALUES ('Bruno Fernando', '93206483018');
-INSERT INTO pessoa (nome, cpf) VALUES ('João Alberto', '30919396003');
+INSERT INTO pessoa (nome, cpf) VALUES ('Bruno Fernando', '932.064.830-18');
+INSERT INTO pessoa (nome, cpf) VALUES ('João Alberto', '309.193.960-03');
 ```
 
 Após inserir os dados, é necessário realizar a importação da feature da **entity** pessoa no módulo de pessoa e indicar ao **TypeORM** para utilizá-la. Isso pode ser feito editando o **decorator** `@Module` do arquivo `pessoa.module.ts` da seguinte forma:
