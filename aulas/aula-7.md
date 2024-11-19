@@ -76,6 +76,6 @@ Caso já exista este CPF no banco de dados, irá exibir uma exceção **BAD REQU
 Aula finalizada, criamos a exclusão, criação e validação de uma pessoa com o CPF.
 
 # Referências
-[Gerador de CPF](https://www.4devs.com.br/gerador_de_cpf)
-[NestJs Controllers](https://docs.nestjs.com/controllers)
-[Projeto pessoal Libevilaqua](https://github.com/BevilaquaBruno/libevilaqua-backend-nest)
+- [Gerador de CPF](https://www.4devs.com.br/gerador_de_cpf)
+- [NestJs Controllers](https://docs.nestjs.com/controllers)
+- [Projeto pessoal Libevilaqua](https://github.com/BevilaquaBruno/libevilaqua-backend-nest)
