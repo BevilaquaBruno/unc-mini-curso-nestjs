@@ -65,5 +65,5 @@ Dessa forma, executando uma URL no **Bruno** para tentar editar um registro inse
 Fim da aula 8, terminamos o CRUD de pessoa e testamos a edição da pessoa com uma validação.
 
 # Referências
-[Projeto pessoal libevilaqua](https://github.com/BevilaquaBruno/libevilaqua-backend-nest)
-[TypeORM Find Options](https://orkhan.gitbook.io/typeorm/docs/find-options)
+- [Projeto pessoal libevilaqua](https://github.com/BevilaquaBruno/libevilaqua-backend-nest)
+- [TypeORM Find Options](https://orkhan.gitbook.io/typeorm/docs/find-options)
