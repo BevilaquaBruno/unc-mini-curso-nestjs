@@ -29,7 +29,7 @@ O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respec
 - [Aula 5](./aulas/aula-5.md) - Início do CRUD de pessoa, listando todas e listando uma.
 - [Aula 6](./aulas/aula-6.md) - Criação de paginação para retornar a lista de pessoas.
 - [Aula 7](./aulas/aula-7.md) - Continuação do CRUD de pessoa, exclusão, criação e validações.
-- [Aula 8](./aulas/aula-8.md) - Finalização do CRUD de pessoa, edição e testes finais.
+- [Aula 8](./aulas/aula-8.md) - Finalização do CRUD de pessoa, edição da pessoa.
 - [Aula 9](./aulas/aula-9.md) - Início do CRUD de usuário, listando todos e listando um.
 - [Aula 10](./aulas/aula-10.md) - Criação de paginação para retornar a lista de usuários.
 - [Aula 11](./aulas/aula-11.md) - Continuação do CRUD de usuário, exclusão, criação e validações.
