@@ -28,7 +28,7 @@ async findAll(@Query('page') page: string, @Query('limit') limit: string) {
     }
   };
 }
-...(
+...
 ```
 
 Neste trecho utilizamos o **decorator** `Query` para receber a página (page) e a quantidade de itens por página (limit), isso é guardado em uma variável (filtroPessoa) e é passado para o método `findAll` do serviço de pessoa.
