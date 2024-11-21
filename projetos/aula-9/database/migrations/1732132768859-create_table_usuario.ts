@@ -8,9 +8,9 @@ export class CreateTableUsuario1732132768859 implements MigrationInterface {
                 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
                 email VARCHAR(100) NOT NULL,
                 password VARCHAR(255),
-                id_pessoa INT,
+                pessoaId INT,
 
-                CONSTRAINT FK_pessoa_usuario FOREIGN KEY (id_pessoa) REFERENCES pessoa(id)
+                CONSTRAINT FK_pessoa_usuario FOREIGN KEY (pessoaId) REFERENCES pessoa(id)
             );`);
     }
 

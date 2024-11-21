@@ -23,9 +23,9 @@ export class CreateTableUsuario1732132768859 implements MigrationInterface {
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
         email VARCHAR(100) NOT NULL,
         password VARCHAR(255),
-        id_pessoa INT,
+        pessoaId INT,
 
-        CONSTRAINT FK_pessoa_usuario FOREIGN KEY (id_pessoa) REFERENCES pessoa(id)
+        CONSTRAINT FK_pessoa_usuario FOREIGN KEY (pessoaId) REFERENCES pessoa(id)
       );`);
   }
 
@@ -68,8 +68,8 @@ Para rodar a migração, utilizamos o comando:
 E no banco de dados, através do **Heidi** podemos incluir alguns usuários para testar:
 
 ```SQL
-INSERT INTO usuario (email, password, id_pessoa) VALUES ('bbbevilaqua@gmail.com', '$2b$10$CJNRnD4NHGQWnrQeffk5u.pbRP.mOEIyCLWLqrCDx4kGKSVBoNQe6', 1);
-INSERT INTO usuario (email, password, id_pessoa) VALUES ('bruno.f.bevilaqua@gmail.com', '$2b$10$CJNRnD4NHGQWnrQeffk5u.pbRP.mOEIyCLWLqrCDx4kGKSVBoNQe6', 2);
+INSERT INTO usuario (email, password, pessoaId) VALUES ('bbbevilaqua@gmail.com', '$2b$10$CJNRnD4NHGQWnrQeffk5u.pbRP.mOEIyCLWLqrCDx4kGKSVBoNQe6', 1);
+INSERT INTO usuario (email, password, pessoaId) VALUES ('bruno.f.bevilaqua@gmail.com', '$2b$10$CJNRnD4NHGQWnrQeffk5u.pbRP.mOEIyCLWLqrCDx4kGKSVBoNQe6', 2);
 ```
 
 > Este campo da senha já está em um padrão que criaremos depois.

@@ -16,11 +16,8 @@ export class UsuarioService {
     return 'This action adds a new usuario';
   }
 
-  findAll(filtroUsuario) {
-    return this.usuarioServiceRepository.find({
-      take: filtroUsuario.limit,
-      skip: filtroUsuario.page,
-    });
+  findAll() {
+    return this.usuarioServiceRepository.find();
   }
 
   findOne(id: number) {

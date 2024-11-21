@@ -13,23 +13,8 @@ export class UsuarioController {
   }
 
   @Get()
-  async findAll(@Query('page') page: string, @Query('limit') limit: string) {
-    const filtroUsuario = {
-      page: null,
-      limit: null,
-    };
-
-    filtroUsuario.limit = limit == undefined ? 5 : parseInt(limit);
-    filtroUsuario.page =
-      page == undefined ? 0 : filtroUsuario.limit * (parseInt(page) - 1);
-
-    return {
-      data: await this.usuarioService.findAll(filtroUsuario),
-      config: {
-        page: page,
-        limit: limit
-      }
-    };
+  findAll(@Query('page') page: string, @Query('limit') limit: string) {
+    return this.usuarioService.findAll();
   }
 
   @Get(':id')
