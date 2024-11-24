@@ -161,6 +161,7 @@ import { Usuario } from './entities/usuario.entity';
   imports: [TypeOrmModule.forFeature([Usuario])],
   controllers: [UsuarioController],
   providers: [UsuarioService],
+  exports: [UsuarioService],
 })
 ...
 ```
