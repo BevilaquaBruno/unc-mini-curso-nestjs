@@ -36,7 +36,7 @@ O mini curso foi pensado em 15 aulas diferentes dispostas abaixo com seus respec
 - [Aula 12](./aulas/aula-12.md) - Finalização do CRUD de usuário, edição e testes finais.
 - [Aula 13](./aulas/aula-13.md) - Validação de e-mail e senha para o login do usuário.
 - [Aula 14](./aulas/aula-14.md) - Adição de validação para cadastro de pessoas e usuários mediante token de login.
-- [Aula 15](./aulas/aula-15.md) - Testes finais e finalização do minicurso.
+- [Aula 15](./aulas/aula-15.md) - Finalização do minicurso e observações.
 
 ### Conclusão
 
