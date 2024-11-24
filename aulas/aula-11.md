@@ -44,6 +44,7 @@ findByEmail(email: string) {
     select: {
       id: true,
       email: true,
+      password: true,
       pessoa: {
         id: true,
         nome: true,
