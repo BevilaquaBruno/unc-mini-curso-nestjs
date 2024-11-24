@@ -44,4 +44,4 @@ Ao final do curso, você terá uma API com autenticação e cadastro de usuário
 
 Você terá aprendido como criar um projeto do zero com [NestJs](https://nestjs.com/), como fazer um login com um token JWT no NestJs, como utilizar o [TypeORM](https://typeorm.io/) para a criação das migrations e como utilizar o [MySQL](https://www.mysql.com/) no NestJs.
 
-Os projetos criados ficaram dentro da pasta `/projetos` neste repositório.
+Os projetos criados ficaram dentro da pasta [`/projetos`](https://github.com/BevilaquaBruno/unc-mini-curso-nestjs/tree/master/projetos) neste repositório.
