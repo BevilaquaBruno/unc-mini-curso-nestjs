@@ -8,7 +8,7 @@ Autor: Bruno Fernando Bevilaqua
   <img style="width: 300px;" src="./images/nest-logo.svg" />
 </div>
 
-A ideia do projeto de mini curso de [**NestJs**](https://nestjs.com/) é criar uma lista de materiais necessários e interessantes para desenvolver um projeto CRUD em **NestJs**, ao final do curso será disponibilizado um material com uma API que foi desenvolvida e servirá como exemplo.
+A ideia do projeto de mini curso de [**NestJs**](https://nestjs.com/) é criar uma lista de materiais necessários e interessantes para desenvolver um projeto CRUD em **NestJs**, ao final do curso será disponibilizado um material com uma API que foi desenvolvida e servirá como exemplo. 
 
 ### Pré-requisitos
 
